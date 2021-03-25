@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+#time-left {
+    padding-top: 12px;
+    color: yellow;
+}
+#equation {
+    color: red;
+}
+#score {
+    color: green;
+}
+h3{
+    padding-top: 12px;
+}
