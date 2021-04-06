@@ -19,7 +19,21 @@
           <h2 id="time-left"></h2>
           <p>time remaining</p>  
           <h3>Score: <span id="score"></span></h3>
-          <input id="user-input" type="number" />
+          <input id="user-input" type="number"/>
+          <div>
+            <input id="addition" type="checkbox"/>
+            <label for="addition">+</label>
+            <input id="subtraction" type="checkbox"/>
+            <label for="subtraction">-</label>
+            <input id="multiplication" type="checkbox"/>
+            <label for="multiplication">x</label>
+            <input id="division" type="checkbox"/>
+            <label for="division">/</label>
+          </div>
+          <div>
+            <input type="range" min="10" max="50" value="10" class="slider" id="myRange" step = "5"></input>
+            <p> Value:<span  id="numberSlide"></span></p>
+          </div>
         </div>
       </div>
     </div>
